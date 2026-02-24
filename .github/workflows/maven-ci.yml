@@ -25,3 +25,6 @@ jobs:
 
       - name: Build with Maven
         run: ./CarRentals/mvnw -B -f CarRentals/pom.xml clean install -DskipTests
+
+      - name: Run Spring Boot
+        run: ./CarRentals/mvn spring-boot:run
