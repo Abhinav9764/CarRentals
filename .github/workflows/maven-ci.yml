@@ -27,4 +27,4 @@ jobs:
         run: ./CarRentals/mvnw -B -f CarRentals/pom.xml clean install -DskipTests
 
       - name: Run Spring Boot
-        run: ./CarRentals/mvn spring-boot:run
+        run: ./CarRentals/mvnw -B -f CarRentals/mvnw.cmd spring-boot:run
